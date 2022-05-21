@@ -7,6 +7,7 @@
 #include "Character.h"
 #include "Enemy.h"
 #include "Player.h"
+#include "Action.h"
 
 using namespace std;
 
@@ -17,4 +18,14 @@ int main()
 
     player.showOverview();
     enemy.showOverview();
+
+    string entry;
+    int exit = 0;
+
+    while (exit == 0)
+    {
+        cout << "RPG>";
+        getline(cin, entry);
+        entry = logAction(entry, player);
+    }
 }
