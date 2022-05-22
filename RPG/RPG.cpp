@@ -26,6 +26,6 @@ int main()
     {
         cout << "RPG>";
         getline(cin, entry);
-        entry = logAction(entry, player);
+        entry = Action(entry, player);
     }
 }

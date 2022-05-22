@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string logAction(string entry, Character& cible)
+string Action(string entry, Character& cible)
 {
     if (entry.size() <= 0)
     {
