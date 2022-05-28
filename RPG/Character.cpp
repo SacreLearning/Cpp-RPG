@@ -27,6 +27,20 @@ Character::Character(
 
 }
 
+Character::Character() :
+	mName("Billie le kid"),
+	mHealth(1),
+	mStamina(2),
+	mMana(3),
+	mStrength(4),
+	mAgility(5),
+	mIntelligence(6),
+	mMoney(7),
+	mLevel(1)
+{
+
+}
+
 
 int Character::attack(Character character) 
 {

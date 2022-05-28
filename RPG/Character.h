@@ -32,6 +32,8 @@ class Character
 			int money
 		);
 
+		Character();
+
 		int getInformation(string str);
 		string getName();
 		void showOverview();

@@ -15,6 +15,8 @@ class Enemy : public Character
 		/// <param name="dropExperience"></param>
 		/// <param name="dropMoney"></param>
 		Enemy(string name, int level, int intelligence, int strength, int agility, int dropExperience, int dropMoney);
+		Enemy(string name);
+		Enemy();
 
 	protected:
 		int mDropExperience;
