@@ -2,16 +2,20 @@
 
 #include <string>
 
+using namespace std;
+
 class Equipment
 {
 public:
-	Equipment();
+	Equipment(string name, string type, int attackPower, int strength, int agility, int intelligence, int defence);
 
 protected:
-	int attackPower;
-	int stamina;
-	int mana;
-	int health;
-	int defence;
+	string mName; 
+	string mType;
+	int mAttackPower;
+	int mStrength;
+	int mAgility;
+	int mIntelligence;
+	int mDefence;
 };
 
